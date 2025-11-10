@@ -8,7 +8,7 @@ public class Triangle_Min_Path {
 		triangle.add(Arrays.asList(2));
 		triangle.add(Arrays.asList(3, 4));
 		triangle.add(Arrays.asList(6, 5, 7));
-		triangle.add(Arrays.asList(4, 1, 8, 3));
+		triangle.add(Arrays.asList(4, 1, 8, 12));
 
 		int memoResult = Min_Path_M(triangle);
 		int tabuResult = Min_Path_T(triangle);
