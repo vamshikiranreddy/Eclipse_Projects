@@ -88,9 +88,12 @@ public class Graph_DFS {
 		int NumOfEdges = in.nextInt();
 		System.out.println("Enter The Src And Dst in a line for each Node :-");
 		for (int i = 0; i < NumOfEdges; i++) {
-			int src = in.nextInt();
-			int dst = in.nextInt();
-			graph.AddEdges(src, dst);
+			int srcData = in.nextInt();
+			int dstData = in.nextInt();
+			
+			int srcIdx = graph.dataIdxMap.get(srcData);
+			int dstIdx = graph.dataIdxMap.get(dstData);
+			graph.AddEdges(srcIdx, dstIdx);
 		}
 
 		graph.print();

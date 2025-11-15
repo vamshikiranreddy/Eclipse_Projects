@@ -117,10 +117,10 @@ public class Krushkal_MST {
 			if(uUp == vUp) return;
 			if(rank[uUp] < rank[vUp]) {
 				parent[uUp] = vUp;
-				rank[uUp] ++;
+				
 			}else if(rank[vUp] < rank[uUp]) {
 				parent[vUp] = uUp;
-				rank[vUp] ++;
+				
 			}else {
 				parent[vUp] = uUp;
 				rank[uUp]++;
