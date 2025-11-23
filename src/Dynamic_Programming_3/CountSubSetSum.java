@@ -5,7 +5,7 @@ import java.util.*;
 public class CountSubSetSum {
 	public static void main(String[] args) {
 
-		int[] arr = { 1, 2, 3, 3 };
+		int[] arr = { 1, 2, 3, 4 };
 		int sum = 6;
 
 		System.out.println("Memoization: " + countSubsetsMemo(arr, sum));
