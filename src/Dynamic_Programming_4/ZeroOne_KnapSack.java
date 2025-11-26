@@ -6,7 +6,7 @@ public class ZeroOne_KnapSack {
 
 	public static void main(String[] args) {
 		int[] wt = { 1, 2, 4, 5 };
-		int[] val = { 5, 4, 8, 6 };
+		int[] val = { 5, 4, 8, 8 };
 		int W = 5; // capacity
 		int memoAns = knapSackMemo(W, wt, val);
 		System.out.println("Memoization Result: " + memoAns);
