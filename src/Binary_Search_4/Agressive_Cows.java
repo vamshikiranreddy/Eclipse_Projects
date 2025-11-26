@@ -5,7 +5,7 @@ import java.util.*;
 public class Agressive_Cows {
 
 	public static void main(String[] args) {
-		int[] stalls = { 1, 2, 8, 4, 9 };
+		int[] stalls = { 1, 3, 8, 4, 9 };
 		int cows = 3;
 		int maxDist = BinarySearch(stalls, cows);
 		System.out.println("Largest minimum distance = " + maxDist);
