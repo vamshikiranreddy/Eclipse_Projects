@@ -2,7 +2,7 @@ package Dynamic_Programming_4;
 
 import java.util.*;
 
-public class UnboundKnapSack {
+public class CoinChange {
 
 	public static void main(String[] args) {
 		int[] coins = { 1, 2, 5 };
