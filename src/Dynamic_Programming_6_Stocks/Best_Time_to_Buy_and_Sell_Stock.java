@@ -1,6 +1,6 @@
 package Dynamic_Programming_6_Stocks;
 
-public class Best_Time_to_Buy_and_Sell_Stock {
+public class Best_Time_to_Buy_and_Sell_Stock{
 
     public static void main(String[] args) {
 
